@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        
+    <h1>Lab: Pixel Art Maker</h1>
+    <div id="info">
+        <h2>Choose Grid Size</h2>
+        <form id="sizePicker">
+            <label>Grid Height:
+                <input type="number" id="input_height" name="height" min="1" value="1" max="50">
+            </label>
+            <label>Grid Width:
+                <input type="number" id="input_width" name="width" min="1" value="1" max="50">
+            </label><br>
+            <input type="submit" value="" id="submit">
+           
+        </form>
+        <button id="brush" alt="brush"></button>
+        <button id="eraser"></button>
+        <button id="fill"></button>
+
+
+
+        <h2>Pick A Color</h2>
+        <input type="color" id="colorPicker">
+        <h2>Design Canvas</h2>
+    </div>
+    <table id="pixel_canvas">
+
+    </table>
+    <br>
+    <span id="instructions" hidden="hidden">
+        <button id="reset" >Reset</button>
+        <p>=> Left Click to Draw - Right Click to Erase <=</p>
+        <p>=> Reset Button to make a new Grid ! <=</p>
+    </span>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

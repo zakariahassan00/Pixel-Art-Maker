@@ -1,0 +1,117 @@
+body {
+    text-align: center;
+    color:white ;
+    background-image: url('../img/bg.jpg') ;
+    background-size: 110% ;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: beige;
+    cursor: crosshair ;
+
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+    border: 2px solid darkred ;
+    border-radius: 5px ;
+}
+
+#info {
+    font-family: Monoton ;
+    border: .15em solid darkcyan ;
+    border-radius: 3em ;
+    margin-right: 30% ;
+    margin-left: 30% ;
+    margin-bottom: 2% ;
+    background-size: 100% ;
+    color: white ;
+}
+
+#submit {
+    height: 2.5em ;
+    width: 5em ;
+    background-image : url('../img/create.jpg') ;
+    background-size: 100% ;
+    background-repeat: no-repeat ;
+    border : 3px solid darkred ;
+}
+
+#brush {
+    height: 2.5em ;
+    width: 5em ;
+    background-image : url('../img/cursor.png') ;
+    background-size: 50% ;
+    background-repeat: no-repeat ;
+    border : 3px solid darkred ;
+}
+
+#eraser {
+    height: 2.5em ;
+    width: 5em ;
+    background-image : url('../img/eraser.png') ;
+    background-size: 50% ;
+    background-repeat: no-repeat ;
+    border : 2px solid darkred ;
+    
+}
+
+#fill {
+    height: 2.5em ;
+    width: 5em ;
+    background-image : url('../img/fill.png') ;
+    background-size: 50% ;
+    background-repeat: no-repeat ;
+    border : 2px solid darkred ;
+}
+
+button:hover  {
+    cursor: pointer ;
+    border : 3px solid blue ;
+}
+
+
+input:hover {
+    cursor: pointer ;
+    border : 3px solid blue ;
+}
+
+.eraser:hover {
+    cursor: cell ;
+}
+
+.brush:hover {
+    cursor: crosshair ;
+}
+
